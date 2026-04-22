@@ -1,0 +1,19 @@
+{
+  "name": "banking-fake-provider",
+  "version": "1.0.0",
+  "description": "Mock Payment Service Provider (PSP) for local development and testing",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pino": "^9.5.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
